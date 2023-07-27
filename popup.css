@@ -1,0 +1,37 @@
+.Wripper {
+  width: 250px;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.changecolorbtn {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(60, 33, 86);
+  font-size: 16px;
+  color: white;
+}
+.selectedcolor {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 20px;
+}
+.colorGrid {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-color: brown;
+}
+.colorvalue {
+  font-size: 16px;
+}
+.copid {
+  color: green;
+  font-weight: bold;
+}
